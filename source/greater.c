@@ -17,7 +17,7 @@ int main(int argc, char** argv)
   {
     printf("Process %d is less than 5 \n", my_rank);
   }
-  MPI.Finalize();
+  MPI_Finalize();
   
   
 }
